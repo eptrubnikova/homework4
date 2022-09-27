@@ -65,5 +65,28 @@ if (freeSeats < 102 && freeSeats > 0) {
                 System.out.println("иди работать");
             }
         }
+        System.out.println("Задача 2.3");
+        int totalSeats1 = 102;
+        int soldSeats1 = 92;
+        int freeSeats1 = totalSeats - soldSeats;
+        if (freeSeats1 < 102 && freeSeats1 > 0) {
+            System.out.println("В вагоне осталось " + freeSeats1 + " мест");}
+        else System.out.println("В вагоне мест нет");
+        int seatPlace1 = 60;
+        int soldSeatPlace1 = 50;
+        int freeSeatPlace1 = seatPlace1 - soldSeatPlace1;
+        int standPlace1 = 42;
+        int soldStandPlace1 = soldSeats1 - soldSeatPlace1;
+        int freeStandPlace1 = standPlace1 - soldStandPlace1;
+        if (freeSeatPlace1 <= 60 && freeSeatPlace1 > 0)  {
+            System.out.println("В вагоне осталось " + freeSeatPlace1 + " сидячих мест");
+        }
+        else {System.out.println("В вагоне нет сидячих мест");}
+        if (freeStandPlace1 <= 42 && freeStandPlace1 >0){
+            System.out.println("В вагоне осталось " + freeStandPlace1 + "стоячих мест");
+        }
+        else {System.out.println("В вагоне нет стоячих мест");}
+
+
     }
     }
