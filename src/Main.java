@@ -11,7 +11,7 @@ public class Main {
         }
 
         System.out.println("Задача 1.2");
-        int age1 = 28;
+        int age1 = 9;
         if (age1 >= 7 && age1 < 18) {
             System.out.println("ты ходишь в школу");
         }
@@ -38,10 +38,32 @@ if (freeSeats < 102 && freeSeats > 0) {
     if (freeSeatPlace <= 60 && freeSeatPlace > 0)  {
             System.out.println("В вагоне осталось " + freeSeatPlace + " сидячих мест");
         }
-    else System.out.println("В вагоне нет сидячих мест");
+    else {System.out.println("В вагоне нет сидячих мест");}
     if (freeStandPlace <= 42 && freeStandPlace >0){
         System.out.println("В вагоне осталось " + freeStandPlace + "стоячих мест");
     }
-    else System.out.println("В вагоне нет стоячих мест");
+    else {System.out.println("В вагоне нет стоячих мест");}
+
+        System.out.println("Задача 2.1");
+        int age2 = 7;
+        if (age2 >= 18) {
+            System.out.println("Поздравляем с совершенолетием");
+        }
+        else  {
+            System.out.println("Возраст совершенолетия не наступил, необходимо подождать");
+        }
+
+        System.out.println("Задача 2.2");
+        int age3 = 30;
+        if (age3 >= 7 && age3 < 18) {
+            System.out.println("иди в школу");
+        }
+        else {
+            if (age3 >= 18 && age3 < 24) {
+                System.out.println("иди подавать документы в ВУЗ");
+            } else {
+                System.out.println("иди работать");
+            }
+        }
     }
     }
