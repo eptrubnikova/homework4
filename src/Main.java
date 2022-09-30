@@ -102,7 +102,32 @@ if (agePreschool){
         boolean ageMan = age5 > 24;
         if (ageMan){
             System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить на работу");}
-        }
+
+        System.out.println("Задача 3.2");
+ int age4 = 17;
+ if (age4 < 5) {
+     System.out.println("ты не иожешь кататься на аттракционе");
+ }
+ else if (age4 >= 5 && age4 < 14) {
+     System.out.println("ты можешь кататься на аттракционе только со взрослыми");
+ }
+ else
+     System.out.println("ты можешь кататься без сопровождения");
+
+        System.out.println("Задача 3.3");
+ int one = 5;
+ int two = 15;
+ int free = 20;
+ if (one > two && one > free) {
+     System.out.println("самое большое число " +one);
+ }
+ else if (two > one && two > free) {
+     System.out.println("самое большое число " + two);
+ }
+ else
+     System.out.println("самое большое число " + free);
+
+    }
 
     }
 
