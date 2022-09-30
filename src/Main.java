@@ -28,7 +28,7 @@ int soldSeats = 92;
 int freeSeats = totalSeats - soldSeats;
 if (freeSeats < 102 && freeSeats > 0) {
     System.out.println("В вагоне осталось " + freeSeats + " мест");}
-    else System.out.println("В вагоне мест нет");
+    else {System.out.println("В вагоне мест нет");}
     int seatPlace = 60;
     int soldSeatPlace = 50;
     int freeSeatPlace = seatPlace - soldSeatPlace;
@@ -87,6 +87,22 @@ if (freeSeats < 102 && freeSeats > 0) {
         }
         else {System.out.println("В вагоне нет стоячих мест");}
 
+        System.out.println("Задача 3.1");
+int age5 = 25;
+boolean agePreschool = age5 >= 2 && age5 <= 6;
+if (agePreschool){
+        System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить  в садик");}
+        boolean ageSchoolboy = age5 >= 7 && age5 == 18;
+        if (ageSchoolboy){
+        System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить в школу");}
+        boolean ageStudent = age5 > 18 && age5 < 24;
+        if (ageStudent)
+        {
+            System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить в ВУЗ");}
+        boolean ageMan = age5 > 24;
+        if (ageMan){
+            System.out.println("Если возраст человека равен " + age5 + ", то ему нужно ходить на работу");}
+        }
 
     }
-    }
+
